@@ -2,6 +2,7 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import './fixed.css'
 import './style.css'
+import { Link } from 'react-router-dom'
 const Home = () => {
   return (
     <div>
@@ -25,15 +26,15 @@ const Home = () => {
                 </button>
                 <div className="collapse navbar-collapse" id="navbarResponsive">
                   <ul className="navbar-nav ml-auto">
-                  <li class="nav-item"><a class="nav-link" href="./">Home</a></li>
+                  <li class="nav-item"><Link class="nav-link" href="./">Home</Link></li>
                   <li class="nav-item">
-							<a class="nav-link" href="./startups.jsx">Startups</a>
+							<Link class="nav-link" href="./startups.jsx">Startups</Link>
 						</li>
             <li class="nav-item">
-							<a class="nav-link" href="./register.jsx">Register</a>
+							<Link class="nav-link" href="./register.jsx">Register</Link>
 						</li>
             <li class="nav-item">
-							<a class="nav-link" href="./login">Login</a>
+							<Link class="nav-link" href="./login">Login</Link>
 						</li>
                   </ul>
                 </div>
