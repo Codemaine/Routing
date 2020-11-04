@@ -26,15 +26,15 @@ const Home = () => {
                 </button>
                 <div className="collapse navbar-collapse" id="navbarResponsive">
                   <ul className="navbar-nav ml-auto">
-                  <li class="nav-item"><Link class="nav-link" href="./">Home</Link></li>
+                  <li class="nav-item"><Link class="nav-link" to="/">Home</Link></li>
                   <li class="nav-item">
-							<Link class="nav-link" href="./startups.jsx">Startups</Link>
+							<Link class="nav-link" to="/startups">Startups</Link>
 						</li>
             <li class="nav-item">
-							<Link class="nav-link" href="./register.jsx">Register</Link>
+							<Link class="nav-link" to="/register">Register</Link>
 						</li>
             <li class="nav-item">
-							<Link class="nav-link" href="./login">Login</Link>
+							<Link class="nav-link" to="/login">Login</Link>
 						</li>
                   </ul>
                 </div>
